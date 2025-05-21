@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("veriApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c864429a23c76dcd67f948132a003626a3327c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("veriApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("veriApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

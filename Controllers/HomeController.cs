@@ -15,11 +15,17 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        Ayakkabi pabuc = new Ayakkabi();
+        pabuc.Marka = "Nike";
+        pabuc.Renk = "Gırmızı";
+        pabuc.Numara = 42.5d;        
+        return View(pabuc);
     }
 
     public IActionResult Privacy()
     {
+        ViewBag.ad = "Satılmış";
+        ViewBag.soyad = "Kütük";
         return View();
     }
 
